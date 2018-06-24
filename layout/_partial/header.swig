@@ -17,7 +17,6 @@
           </a>
         </li>
       {% endfor %}
-<<<<<<< HEAD
 
       {% if theme.search %}
       <li class="menu-item">
@@ -27,8 +26,6 @@
       </li>
       {% endif %}
 
-=======
->>>>>>> f897cd88f3de76238b98270a86d50dcdaa906d02
     </ul>
   {% endif %}
 </nav>

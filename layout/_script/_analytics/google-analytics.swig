@@ -1,5 +1,4 @@
 {% if theme.google_analytics %}
-<<<<<<< HEAD
   <script id="google_analytics">
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -9,15 +8,4 @@
         ga('create', '{{ theme.google_analytics }}', 'auto');
         ga('send', 'pageview');
   </script>
-=======
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ theme.google_analytics }}"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', '{{ theme.google_analytics }}');
-</script>
->>>>>>> f897cd88f3de76238b98270a86d50dcdaa906d02
 {% endif %}

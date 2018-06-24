@@ -3,11 +3,7 @@
 # ===========================================
 
 # Site creation time
-<<<<<<< HEAD
 since: 2017
-=======
-since: 2015
->>>>>>> f897cd88f3de76238b98270a86d50dcdaa906d02
 
 # Custom your favicon.ico in `site/source`
 favicon: /favicon.ico
@@ -22,23 +18,15 @@ rss: default
 # ===========================================
 menu:
   Home: /
-<<<<<<< HEAD
   Archives: /archives/
   Tags: /tags
   Categories: /categories
 #  Search: /search
   About: /about
-=======
-  # Archives: /archives/
-  # Tags: /tags
-  # Categories: /categories
-  # About: /about
->>>>>>> f897cd88f3de76238b98270a86d50dcdaa906d02
 
 # ===========================================
 # Theme Settings
 # ===========================================
-<<<<<<< HEAD
 # theme styling
 # color: Default | Mint Green | Cobalt Blue | Hot Pink | Dark Violet
 theme:
@@ -46,17 +34,6 @@ theme:
   toc: true
   fancybox: true
   search: true
-=======
-# color: Default | Mint Green | Cobalt Blue | Hot Pink | Dark Violet
-color: Default
-
-toc: true
-
-# jQuery fancybox
-fancybox: true
-
-pjax: true
->>>>>>> f897cd88f3de76238b98270a86d50dcdaa906d02
 
 copyright:
   enable: true
@@ -73,21 +50,13 @@ reward:
 # Social links Settings
 # ===========================================
 social:
-<<<<<<< HEAD
   email: littledonkeyiphone AT icloud.com
-=======
-  email: your@email.com
->>>>>>> f897cd88f3de76238b98270a86d50dcdaa906d02
   stack-overflow:
   twitter:
   facebook:
   linkedin:
   google:
-<<<<<<< HEAD
   github: https://github.com/liuyou2015
-=======
-  github: https://github.com/ahonn
->>>>>>> f897cd88f3de76238b98270a86d50dcdaa906d02
   weibo:
   zhihu:
   douban:
@@ -122,22 +91,13 @@ changyan:
   appid:
   appkey:
 
-<<<<<<< HEAD
 mathjax:
   enable: true
   per_page: false
   cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
-=======
-#LiveRe
-livere_datauid:
->>>>>>> f897cd88f3de76238b98270a86d50dcdaa906d02
 
 # ===========================================
 # Version
 # ===========================================
-<<<<<<< HEAD
 version: 2.6.0
-=======
-version: 2.9.0
->>>>>>> f897cd88f3de76238b98270a86d50dcdaa906d02

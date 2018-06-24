@@ -20,15 +20,11 @@
             {% endfor %}
           </div>
         {% endif %}
-<<<<<<< HEAD
 
-=======
->>>>>>> f897cd88f3de76238b98270a86d50dcdaa906d02
         {% if theme.leancloud.app_id and theme.leancloud.app_key %}
         <div class="post-visits"
              data-url="{{ url_for(post.path) }}"
              data-title="{{ post.title }}">
-<<<<<<< HEAD
             {{ __('posts.visits') }}
           </div>
         {% endif %}
@@ -45,14 +41,6 @@
     </header>
 
 
-=======
-            {{ __('posts.visits') }} 0
-          </div>
-        {% endif %}
-      </div>
-    </header>
-
->>>>>>> f897cd88f3de76238b98270a86d50dcdaa906d02
     {# Post TOC #}
     {% include "../_partial/_post/toc.swig" %}
 
@@ -88,7 +76,6 @@
 
     {% if not is_home() %}
       <footer class="post-footer">
-<<<<<<< HEAD
       {% if post.tags and post.tags.length %}
         <div class="post-tags">
           {% for tag in post.tags %}
@@ -96,15 +83,6 @@
           {% endfor %}
         </div>
       {% endif %}
-=======
-        {% if post.tags and post.tags.length %}
-          <div class="post-tags">
-            {% for tag in post.tags %}
-              <a href="{{ url_for(tag.path) }}">{{ tag.name }}</a>
-            {% endfor %}
-          </div>
-        {% endif %}
->>>>>>> f897cd88f3de76238b98270a86d50dcdaa906d02
         {# Post Pagination #}
         {% include "../_partial/pagination.swig" %}
       </footer>

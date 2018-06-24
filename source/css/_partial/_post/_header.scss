@@ -30,17 +30,6 @@
       a {
         color: inherit;
 
-<<<<<<< HEAD
-=======
-        & + a {
-          &::before {
-            content: '/';
-            margin-right: 3px;
-            color: $post-meta-font-color !important;
-          }
-        }
-
->>>>>>> f897cd88f3de76238b98270a86d50dcdaa906d02
         &:hover {
           color: $theme-color;
         }

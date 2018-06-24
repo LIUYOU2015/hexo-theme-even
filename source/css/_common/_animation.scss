@@ -36,21 +36,13 @@
   @keyframes clickfirst {
     0% {
       transform: translateY(6px) rotate(0deg);
-<<<<<<< HEAD
 
-=======
-      
->>>>>>> f897cd88f3de76238b98270a86d50dcdaa906d02
     }
 
     100% {
       transform: translateY(0) rotate(45deg);
     }
-<<<<<<< HEAD
   }
-=======
-  }	
->>>>>>> f897cd88f3de76238b98270a86d50dcdaa906d02
 
   @keyframes clickmid {
     0% {
@@ -71,11 +63,7 @@
       transform: translateY(0) rotate(-45deg);
     }
   }
-<<<<<<< HEAD
 
-=======
-  
->>>>>>> f897cd88f3de76238b98270a86d50dcdaa906d02
   @keyframes outfirst {
     0% {
       transform: translateY(0) rotate(-45deg);
@@ -84,11 +72,7 @@
     100% {
       transform: translateY(-6px) rotate(0deg);
     }
-<<<<<<< HEAD
   }
-=======
-  }	
->>>>>>> f897cd88f3de76238b98270a86d50dcdaa906d02
 
   @keyframes outmid {
     0% {
@@ -117,11 +101,7 @@
     width: 20px;
     height: 1px;
     background-color: $theme-color;
-<<<<<<< HEAD
 
-=======
-  
->>>>>>> f897cd88f3de76238b98270a86d50dcdaa906d02
     &:nth-child(1) {
       transform: translateY(6px) rotate(0deg);
     }
@@ -170,8 +150,4 @@
       animation-name: outlast;
     }
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> f897cd88f3de76238b98270a86d50dcdaa906d02
