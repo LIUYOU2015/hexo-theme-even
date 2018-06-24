@@ -1,6 +1,10 @@
 {
   "name": "hexo-theme-even",
+<<<<<<< HEAD
   "version": "2.6.0",
+=======
+  "version": "2.8.0",
+>>>>>>> f897cd88f3de76238b98270a86d50dcdaa906d02
   "description": "A super simple theme for Hexo",
   "main": "index.js",
   "keywords": [

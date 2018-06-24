@@ -17,6 +17,13 @@ body {
   background: $global-background;
   scroll-behavior: smooth;
   border-top: 3px solid $theme-color;
+<<<<<<< HEAD
+=======
+
+  &.hide-top {
+    border-top: 3px solid transparent;
+  }
+>>>>>>> f897cd88f3de76238b98270a86d50dcdaa906d02
 }
 
 @include max-screen() {
@@ -27,12 +34,20 @@ body {
 
 ::selection {
   background: $theme-color;
+<<<<<<< HEAD
   color: #fff; 
+=======
+  color: #fff;
+>>>>>>> f897cd88f3de76238b98270a86d50dcdaa906d02
 }
 
 // ::-webkit-scrollbar {
 //   width: 8px;
+<<<<<<< HEAD
 //   height: 6px; 
+=======
+//   height: 6px;
+>>>>>>> f897cd88f3de76238b98270a86d50dcdaa906d02
 // }
 
 // ::-webkit-scrollbar-thumb {
@@ -95,4 +110,8 @@ a {
 	left: 0;
 	width: 100%;
 	height: 100%;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> f897cd88f3de76238b98270a86d50dcdaa906d02

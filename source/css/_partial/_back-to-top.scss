@@ -13,7 +13,11 @@
   z-index: 10;
 
   &:hover {
+<<<<<<< HEAD
     transform: translateY(-5px); 
+=======
+    transform: translateY(-5px);
+>>>>>>> f897cd88f3de76238b98270a86d50dcdaa906d02
   }
 }
 
@@ -21,4 +25,8 @@
   .back-to-top {
     display: none !important;
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> f897cd88f3de76238b98270a86d50dcdaa906d02

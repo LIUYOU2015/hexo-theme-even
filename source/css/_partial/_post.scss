@@ -9,7 +9,11 @@
 
 .post {
   padding: $post-padding;
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> f897cd88f3de76238b98270a86d50dcdaa906d02
   & + .post {
     border-top: $post-border;
   }
@@ -20,4 +24,8 @@
   @import '_post/copyright';
   @import '_post/reward';
   @import '_post/footer';
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> f897cd88f3de76238b98270a86d50dcdaa906d02

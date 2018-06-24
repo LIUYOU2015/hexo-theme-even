@@ -10,7 +10,10 @@
     <div class="container" id="mobile-panel">
       <header id="header" class="header">
         {%- include '_partial/header.swig' %}
+<<<<<<< HEAD
         {%- include 'search.swig' %}
+=======
+>>>>>>> f897cd88f3de76238b98270a86d50dcdaa906d02
       </header>
 
       <main id="main" class="main">
@@ -35,6 +38,9 @@
 
     {% include '_script/libs.swig' %}
     {% include '_script/theme.swig' %}
+<<<<<<< HEAD
 
+=======
+>>>>>>> f897cd88f3de76238b98270a86d50dcdaa906d02
   </body>
 </html>
